@@ -130,6 +130,6 @@ app.post('/comment', (req, res) => {
 });
 
 // start up the server, listen for connection
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Wild West Forum running at http://localhost:${PORT}`);
 });

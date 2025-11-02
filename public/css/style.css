@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0ebdd;
+  color: #322828;
+  margin: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0570cdcb;
+  margin: 0 5px;
+}
+
+button {
+  cursor: pointer;
+}
