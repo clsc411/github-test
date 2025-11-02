@@ -1,0 +1,14 @@
+services:
+  nodejs:
+    build: .
+    container_name: wildwest-node
+    expose:
+      - "3000"
+
+  nginx:
+    build: ./nginx
+    container_name: wildwest-nginx
+    ports:
+      - "8080:80"
+    depends_on:
+      - nodejs
