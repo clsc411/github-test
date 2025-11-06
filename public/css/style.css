@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
 body {
   font-family: sans-serif;
   background-color: #f0ebdd;
@@ -11,6 +13,13 @@ body {
   justify-content: center;
   border-radius: 10px;
 }
+
+/* Add this to your CSS */
+h1, h2, h3 {
+  font-family: 'Rye', serif;
+  font-weight: 400; /* This font doesn't need to be bolded */
+}
+
 
 header{
   display: flex;
