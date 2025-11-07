@@ -5,7 +5,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000; // fix port issue 
 
 //'database' 
 const users = [];
@@ -131,5 +131,5 @@ app.post('/comment', (req, res) => {
 
 // start up the server, listen for connection
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Wild West Forum running at http://localhost:${PORT}`);
+  console.log(`Wild West Forum running at http://159.203.136.153/:${PORT}`);
 });
