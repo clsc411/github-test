@@ -11,7 +11,7 @@ This forum is a basic node.js and express web app using handlebars for templates
    git clone https://github.com/clsc411/github-test.git
    cd github-test '
 **2.** Build and start the containers: ' sudo docker compose up -d --build '
-**3.** Open the app in your browser: ' http://159.203.136.153:8080 '
+**3.** Open the app in your browser: ' http://159.203.136.153:4111 '
 **4.** To stop the running app: ' sudo docker compose down '
 
 ## Notes
